@@ -44,7 +44,7 @@ Since we have put our code into the **compileXXX.sh** script, so just `bash comp
  <img src="https://github.com/anonymousGithub2022/DyCL/blob/main/fig/error.png" width="740" height="300" alt="Design Overview"/><br/>
 </div>    
 
-The above figure shows the error distribution of applying DL compiler to compiler four different dynamic neural netwroks. The red is the error distribution of compiling ResNet, which contains no dynamic behavior. From the results, we observe that existing DL compiler fail to compile dynamic neural networks due to the large errors ($10^1$ ~ $10^4$).
+The above figure shows the error distribution of applying DL compiler to compiler four different dynamic neural netwroks. The red is the error distribution of compiling ResNet, which contains no dynamic behavior. From the results, we observe that existing DL compiler fail to compile dynamic neural networks due to the large errors ($10^4$ ~ $10^4$).
 
 
 
