@@ -5,7 +5,7 @@
 
 
 <div  align="center">    
- <img src="https://github.com/anonymousGithub2022/DyCL/blob/main/fig/overview.png" width="880" height="590" alt="Design Overview"/><br/>
+ <img src="https://github.com/anonymousGithub2022/DyCL/blob/main/fig/overview.png" width="880" height="390" alt="Design Overview"/><br/>
 </div>    
 
 The above figure shows the design overview of DyCL, which includes five main steps: 
