@@ -4,6 +4,10 @@
 **DyCL** is a general-purpose tool that can release the power of existing *static* DL compilers in the context of dynamic neural networks without touching the complicated design of various DL compiler IR.
 
 
+<div  align="center">    
+ <img src="https://github.com/anonymousGithub2022/CodeGenExp/blob/main/fig/overview.png" width="2880" height="1097" alt="Design Overview"/><br/>
+</div>    
+
 
 # File Structure
 * ./src - basic implementation of DyCL
