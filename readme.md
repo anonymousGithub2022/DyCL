@@ -37,4 +37,15 @@ The above figure shows the design overview of DyCL, which includes five main ste
 Since we have put our code into the **compileXXX.sh** script, so just `bash compileXXX.sh` to run our code.
 
 
+## Limitation of Existing DL Compilers
+
+
+<div  align="center">    
+ <img src="https://github.com/anonymousGithub2022/DyCL/blob/main/fig/error.png" width="1440" height="590" alt="Design Overview"/><br/>
+</div>    
+
+The above figure shows the error distribution of applying DL compiler to compiler four different dynamic neural netwroks. The red is the error distribution of compiling ResNet, which contains no dynamic behavior. From the results, we observe that existing DL compiler fail to compile dynamic neural networks due to the large errors ($10^1$ - $10^4$).
+
+
+## Dynamic Neural Networks used in our Evaluation
 
