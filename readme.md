@@ -5,8 +5,16 @@
 
 
 <div  align="center">    
- <img src="https://github.com/anonymousGithub2022/CodeGenExp/blob/main/fig/overview.png" width="2880" height="1097" alt="Design Overview"/><br/>
+ <img src="https://github.com/anonymousGithub2022/DyCL/blob/main/fig/overview.png" width="2880" height="1097" alt="Design Overview"/><br/>
 </div>    
+
+The above figure shows the design overview of DyCL, which includes five main steps: 
+ 1. Program Rewriting: rewrite the source Dynamic neural network program to make the contest of each sub-DNN's context explicit.
+ 2. HCFG Construction: generate the HCFG for compiling each sub-DNN.
+ 3. Graph Optimization: further optimize each sub-DNNs' computational graph to achieve less runtime overheads.
+ 4. Sub-DNN Compilation: automatic compile each sub-DNN through tracking each sub-DNN's input shape.
+ 6. Host-API Generation: generating the API function by rewriting the original dynamic neural network's AST and each DL compiler's sytanix.
+
 
 
 # File Structure
