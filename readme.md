@@ -1,3 +1,10 @@
+# DyCL
+
+**DyCL** is an automatic tool enabling existing *static* DL compilers to compile and deploy dynamic neural networks.
+**DyCL** is a general-purpose tool that can release the power of existing *static* DL compilers in the context of dynamic neural networks without touching the complicated design of various DL compiler IR.
+
+
+
 # File Structure
 * ./src - basic implementation of DyCL
   * ./src/onnx_rewrite.py - optimize the computational graph of a neural network that is stored in onnx format.
@@ -10,6 +17,12 @@
 * ./evaluate_onnx.py - script to evaluate the compiled onnx dynamic neural networks.
 * ./evaluate_tvm.py - script to evaluate the compiled onnx dynamic tvm networks.
 * ./utils.py        - implementing some api function for our experiments.
+
+* ./compileXXX.sh. - the bash script to reproduce our main results, where XXX is a integer number.
+
+## How to Run
+
+Since we have put our code into the **compileXXX.sh** script, so just `bash compileXXX.sh` to run our code.
 
 
 
