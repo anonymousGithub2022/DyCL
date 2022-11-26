@@ -1,5 +1,4 @@
 # DyCL <div align="center">
-
 <p align="center">
     <a href="https://github.com/anonymousGithub2022/main/LICENSE"><img src="https://img.shields.io/github/license/anonymousGithub2022/DyCL"></a>
 </p>
