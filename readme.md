@@ -1,21 +1,22 @@
 
 
-<p align="center">
- <a href="https://github.com/anonymousGithub2022/main/LICENSE"><img src="https://img.shields.io/github/license/anonymousGithub2022/DyCL"></a>
- <a href="https://github.com/anonymousGithub2022/main/LICENSE"><img src="https://img.shields.io/pypi/pyversions/tvm"></a>
-  <a href="https://github.com/anonymousGithub2022/main/LICENSE"><img src=" https://img.shields.io/github/languages/code-size/anonymousGithub2022/DyCL"></a>
-
-</p>
 
 # DyCL 
 
-**DyCL** is an automatic tool enabling existing *static* DL compilers to compile and deploy dynamic neural networks.
-**DyCL** is a general-purpose tool that can release the power of existing *static* DL compilers in the context of dynamic neural networks without touching the complicated design of various DL compiler IR.
+
+<p align="center">
+ <a href="https://github.com/anonymousGithub2022/main/LICENSE"><img src="https://img.shields.io/github/license/anonymousGithub2022/DyCL"></a>
+ <a href="https://github.com/anonymousGithub2022/main/LICENSE"><img src="https://img.shields.io/pypi/pyversions/tvm"></a>
+ <a href="https://github.com/anonymousGithub2022/main/LICENSE"><img src=" https://img.shields.io/github/languages/code-size/anonymousGithub2022/DyCL"></a>
+</p>
 
 
 <div  align="center">    
  <img src="https://github.com/anonymousGithub2022/DyCL/blob/main/fig/overview.png" width="680" height="290" alt="Design Overview"/><br/>
 </div>    
+
+**DyCL** is an automatic tool enabling existing *static* DL compilers to compile and deploy dynamic neural networks.
+**DyCL** is a general-purpose tool that can release the power of existing *static* DL compilers in the context of dynamic neural networks without touching the complicated design of various DL compiler IR.
 
 The above figure shows the design overview of DyCL, which includes five main steps: 
  1. Program Rewriting: rewrite the source Dynamic neural network program to make the contest of each sub-DNN's context explicit.
