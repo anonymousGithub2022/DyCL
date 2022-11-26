@@ -1,6 +1,5 @@
 # DyCL <div align="center">
-    <a href="https://github.com/anonymousGithub2022/DyCL/edit/main/readme.md">
-        </a>
+    <a href="https://github.com/anonymousGithub2022/DyCL/edit/main/readme.md"></a>
 </div>
 
 
