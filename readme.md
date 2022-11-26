@@ -7,7 +7,7 @@
 <p align="center">
  <a href="https://github.com/anonymousGithub2022/main/LICENSE"><img src="https://img.shields.io/github/license/anonymousGithub2022/DyCL"></a>
  <a href="https://github.com/anonymousGithub2022/main/LICENSE"><img src="https://img.shields.io/pypi/pyversions/tvm"></a>
- <a href="https://github.com/anonymousGithub2022/main/LICENSE"><img src=" https://img.shields.io/github/languages/code-size/anonymousGithub2022/DyCL"></a>
+ <a href="https://github.com/anonymousGithub2022/main/LICENSE"><img src="https://img.shields.io/github/languages/code-size/anonymousGithub2022/DyCL"></a>
 </p>
 
 
