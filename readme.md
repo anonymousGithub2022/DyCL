@@ -1,6 +1,6 @@
 # DyCL <div align="center">
     <a href="https://github.com/anonymousGithub2022/DyCL/edit/main/readme.md">
-        <img src="https://img.shields.io/github/license/anonymousGithub2022/DyCL"></a>
+        </a>
 </div>
 
 
