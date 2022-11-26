@@ -19,15 +19,15 @@ The above figure shows the design overview of DyCL, which includes five main ste
 
 | **ID.** | **Base DNN**     | **Application**      | **# of Layers** | **# of Sub-DNN** | **Model Size(MB)** | **Paper Link**                               | **GitHub **                                                 |
 |---------|------------------|----------------------|-----------------|------------------|--------------------|----------------------------------------------|-------------------------------------------------------------|
-| **1**   | MobileNet        | Image Classification | 142             | 108              | 354                | [[1]][http://shallowdeep.network/]                  | [Github 1](https://github.com/yigitcankaya/Shallow-Deep-Networks)       |
-| **2**   | VGG19            | Image Classification | 115             | 42               | 430                | http://shallowdeep.network/                  | https://github.com/yigitcankaya/Shallow-Deep-Networks       |
-| **3**   | ResNet50         | Image Classification | 308             | 81               | 21                 | http://shallowdeep.network/                  | https://github.com/yigitcankaya/Shallow-Deep-Networks       |
-| **4**   | WideResNet       | Image Classification | 201             | 20               | 99                 | http://shallowdeep.network/                  | https://github.com/yigitcankaya/Shallow-Deep-Networks       |
-| **5**   | ResNet38 + RNN   | Image Classification | 179             | 108              | 2.3                | https://arxiv.org/abs/1711.09485             | https://github.com/ucbdrive/skipnet                         |
-| **6**   | ResNet38 + FC    | Image Classification | 336             | 111              | 4.6                | https://arxiv.org/abs/1711.09485             | https://github.com/ucbdrive/skipnet                         |
-| **7**   | ResxNext + LSTM  | Image Caption        | 139             | 200              | 68                 | https://proceedings.mlr.press/v37/xuc15.html | https://github.com/parksunwoo/show_attend_and_tell_pytorch  |
-| **8**   | GoogLeNet + LSTM | Image Caption        | 303             | 200              | 249                | https://proceedings.mlr.press/v37/xuc15.html | https://github.com/parksunwoo/show_attend_and_tell_pytorch  |
-
+| **1**   | MobileNet        | Image Classification | 142             | 108              | 354                | [[Paper 1]](http://shallowdeep.network/)                  | [Github 1](https://github.com/yigitcankaya/Shallow-Deep-Networks)       |
+| **2**   | VGG19            | Image Classification | 115             | 42               | 430                | [[Paper 2]](http://shallowdeep.network/)                  | [Github 2](https://github.com/yigitcankaya/Shallow-Deep-Networks)       |
+| **3**   | ResNet50         | Image Classification | 308             | 81               | 21                 | [[Paper 3]](http://shallowdeep.network/)                  | [Github 3](https://github.com/yigitcankaya/Shallow-Deep-Networks)       |
+| **4**   | WideResNet       | Image Classification | 201             | 20               | 99                 | [[Paper 4]](http://shallowdeep.network/)                  | [Github 4](https://github.com/yigitcankaya/Shallow-Deep-Networks)       |
+| **5**   | ResNet38 + RNN   | Image Classification | 179             | 108              | 2.3                | [[Paper 5]](https://arxiv.org/abs/1711.09485)             | [Github 5](https://github.com/ucbdrive/skipnet)                         |
+| **6**   | ResNet38 + FC    | Image Classification | 336             | 111              | 4.6                | [[Paper 6]](https://arxiv.org/abs/1711.09485)             | [Github 6](https://github.com/ucbdrive/skipnet)                         |
+| **7**   | ResxNext + LSTM  | Image Caption        | 139             | 200              | 68                 | [[Paper 7]](https://proceedings.mlr.press/v37/xuc15.html) | [Github 7](https://github.com/parksunwoo/show_attend_and_tell_pytorch)  |
+| **8**   | GoogLeNet + LSTM | Image Caption        | 303             | 200              | 249                | [[Paper 8]](https://proceedings.mlr.press/v37/xuc15.html) | [Github 8](https://github.com/parksunwoo/show_attend_and_tell_pytorch)  |
+| **9**   | FlatResNet32     | Image Classification | 320             | 42               | 7.2                | [[Paper 9]](https://arxiv.org/abs/1711.08393)             | [Github 9](https://github.com/Tushar-N/blockdrop)                       |
 
 
 # File Structure
