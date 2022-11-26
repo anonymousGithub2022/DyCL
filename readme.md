@@ -15,6 +15,19 @@ The above figure shows the design overview of DyCL, which includes five main ste
  4. Sub-DNN Compilation: automatic compile each sub-DNN through tracking each sub-DNN's input shape.
  6. Host-API Generation: generating the API function by rewriting the original dynamic neural network's AST and each DL compiler's sytanix.
 
+# Dynamic Neural Networks in our Evaluation
+
+| **ID.** | **Base DNN**     | **Application**      | **# of Layers** | **# of Sub-DNN** | **Model Size(MB)** | **Paper Link**                               | **GitHub **                                                 |
+|---------|------------------|----------------------|-----------------|------------------|--------------------|----------------------------------------------|-------------------------------------------------------------|
+| **1**   | MobileNet        | Image Classification | 142             | 108              | 354                | [[1]][http://shallowdeep.network/]                  | [Github 1](https://github.com/yigitcankaya/Shallow-Deep-Networks)       |
+| **2**   | VGG19            | Image Classification | 115             | 42               | 430                | http://shallowdeep.network/                  | https://github.com/yigitcankaya/Shallow-Deep-Networks       |
+| **3**   | ResNet50         | Image Classification | 308             | 81               | 21                 | http://shallowdeep.network/                  | https://github.com/yigitcankaya/Shallow-Deep-Networks       |
+| **4**   | WideResNet       | Image Classification | 201             | 20               | 99                 | http://shallowdeep.network/                  | https://github.com/yigitcankaya/Shallow-Deep-Networks       |
+| **5**   | ResNet38 + RNN   | Image Classification | 179             | 108              | 2.3                | https://arxiv.org/abs/1711.09485             | https://github.com/ucbdrive/skipnet                         |
+| **6**   | ResNet38 + FC    | Image Classification | 336             | 111              | 4.6                | https://arxiv.org/abs/1711.09485             | https://github.com/ucbdrive/skipnet                         |
+| **7**   | ResxNext + LSTM  | Image Caption        | 139             | 200              | 68                 | https://proceedings.mlr.press/v37/xuc15.html | https://github.com/parksunwoo/show_attend_and_tell_pytorch  |
+| **8**   | GoogLeNet + LSTM | Image Caption        | 303             | 200              | 249                | https://proceedings.mlr.press/v37/xuc15.html | https://github.com/parksunwoo/show_attend_and_tell_pytorch  |
+
 
 
 # File Structure
