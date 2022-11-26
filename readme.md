@@ -1,5 +1,5 @@
 # DyCL <p align="center">
-    <img src="https://img.shields.io/github/license/anonymousGithub2022/DyCL" href="https://github.com/ise-uiuc/nnsmith/blob/main/LICENSE"/><a/>
+    <img src="https://img.shields.io/github/license/anonymousGithub2022/DyCL" href="https://github.com/anonymousGithub2022/DyCL/edit/main/readme.md"/><br/>
 </p>
 
 **DyCL** is an automatic tool enabling existing *static* DL compilers to compile and deploy dynamic neural networks.
