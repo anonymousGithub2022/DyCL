@@ -17,7 +17,7 @@ The above figure shows the design overview of DyCL, which includes five main ste
 
 # Dynamic Neural Networks in our Evaluation
 
-| **ID.** | **Base DNN**     | **Application**      | **# of Layers** | **# of Sub-DNN** | **Model Size(MB)** | **Paper Link**                               | **GitHub **                                                 |
+| **ID.** | **Base DNN**     | **Application**      | **# of Layers** | **# of Sub-DNN** | **Model Size(MB)** | **Paper Link**                               | **GitHub**                                                 |
 |---------|------------------|----------------------|-----------------|------------------|--------------------|----------------------------------------------|-------------------------------------------------------------|
 | **1**   | MobileNet        | Image Classification | 142             | 108              | 354                | [[Paper 1]](http://shallowdeep.network/)                  | [Github 1](https://github.com/yigitcankaya/Shallow-Deep-Networks)       |
 | **2**   | VGG19            | Image Classification | 115             | 42               | 430                | [[Paper 2]](http://shallowdeep.network/)                  | [Github 2](https://github.com/yigitcankaya/Shallow-Deep-Networks)       |
