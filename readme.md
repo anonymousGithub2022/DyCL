@@ -25,6 +25,21 @@ The above figure shows the design overview of DyCL, which includes five main ste
  4. Sub-DNN Compilation: automatic compile each sub-DNN through tracking each sub-DNN's input shape.
  6. Host-API Generation: generating the API function by rewriting the original dynamic neural network's AST and each DL compiler's sytanix.
 
+# Compiling DyNNs via disabling Dynamisms.
+
+| **ID**        | **DyNN**        | **Inconsistent Rate ** | ** **  |  
+|---------------|-----------------|------------------------|--------| 
+|               |                 | TVM                    | OnnxR  |          
+| **1 **        | ShallowDeep     | 0.00                   | 0.00   |              
+| **2 **        | SkipNet         | 0.00                   | 0.00   |             
+| **3 **        | Encoder-Decoder | 0.00                   | 0.00   |             
+| **4 **        | AttentionNet    | 0.00                   | 0.00   |             
+
+We disable the dynamism in our study DyNNs by replacing the control statements with **FALSE** and using the existing DL compiler to compile them. The inconsistent rate between the vendor DyNN and the compiled DyNN is shown in the above Table. From the results, we observe that after disabling the dynamism, existing DL compilers can produce semantic-equivalent executables (the inconsistent rates are all zero).
+
+
+
+
 # Dynamic Neural Networks in our Evaluation
 
 | **ID.** | **Base DNN**     | **Application**      | **# of Layers** | **# of Sub-DNN** | **Model Size(MB)** | **Paper Link**                               | **GitHub**                                                 |
