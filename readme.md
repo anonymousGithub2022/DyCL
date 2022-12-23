@@ -37,7 +37,24 @@ The above figure shows the design overview of DyCL, which includes five main ste
 
 We disable the dynamism in our study DyNNs by replacing the control statements with **FALSE** and using the existing DL compiler to compile them. The inconsistent rate between the vendor DyNN and the compiled DyNN is shown in the above Table. From the results, we observe that after disabling the dynamism, existing DL compilers can produce semantic-equivalent executables (the inconsistent rates are all zero).
 
+# Comparsion with TorchDynamo
 
+
+The overheads (s) of each DL compiler on Nvidia TX2.
+
+| **DyNN ID** | **Vendor** | **TorchDynamo** | **TVM + DyCL** | **ONNXR+DyCL** |   
+|-------------|------------|-----------------|----------------|-----------------| 
+| **1**       | 2.37       | *4.25*            | 2.10           | 1.12            |        
+| **2**       | 2.04       | 1.94            | 1.03           | 1.40            |          
+| **3**       | 0.80       | 0.74            | 0.10           | 0.17            |        
+| **4**       | 1.58       | 1.09            | 0.94           | 1.30            |         
+| **5**       | 0.71       | 0.33            | 0.07           | 0.04            |         
+| **6**       | 0.71       | 0.33            | 0.07           | 0.03            |         
+| **7**       | 1.06       | 0.49            | 0.50           | 0.40            |         
+| **8**       | 1.43       | 0.82            | 0.79           | 0.76            |         
+| **9**       | 0.76       | *1.15*          | 0.10           | 0.07            |   
+
+The above Table shows the average overheads of each DL compiler runing on 1,000 random test inputs. From the results, we observe that TorchDynamo can accelerate in most cases (7 out of 9) but will bring in negative optimization for two DyNNs (ID. 1 and 9). Moreover, we observe that for all cases,  **TVM + DyCL** and **ONNXR+DyCL** outperform **TorchDynamo** with significant margins, which indicates the effectiveness of the optimization strategy in TVM and ONNXRuntime.
 
 
 # Dynamic Neural Networks in our Evaluation
